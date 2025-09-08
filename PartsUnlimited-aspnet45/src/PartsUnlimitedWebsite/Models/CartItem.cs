@@ -3,8 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    // Mariem & anghem commits
     public class CartItem : ILineItem
     {
+        // Aness commit
         [Key]
         public int CartItemId { get; set; }
 
