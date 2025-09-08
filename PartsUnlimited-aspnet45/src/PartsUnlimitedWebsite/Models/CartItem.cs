@@ -7,6 +7,7 @@ namespace PartsUnlimited.Models
     public class CartItem : ILineItem
     {
         // Aness commit
+        // Second change
         [Key]
         public int CartItemId { get; set; }
 
